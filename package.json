@@ -1,0 +1,14 @@
+{
+  "name": "jsx-html",
+  "version": "0.0.2",
+  "description": "Convert jsx to html string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Han",
+  "license": "MIT",
+  "dependencies": {
+    "recast": "^0.12.6"
+  }
+}
