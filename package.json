@@ -4,6 +4,7 @@
   "description": "Convert jsx to html string",
   "main": "index.js",
   "scripts": {
+    "readme": "jsdoc2md index.js > README.md && readme package.json | tail -n +4 >> README.md",
     "lint": "eslint --cache --fix .",
     "test": "mocha index.test.js",
     "watch:test": "npm test -- --watch"
@@ -16,6 +17,7 @@
   "devDependencies": {
     "chai": "^4.1.0",
     "eslint": "^4.3.0",
+    "jsdoc-to-markdown": "^3.0.0",
     "mocha": "^3.4.2"
   }
 }
