@@ -1,6 +1,6 @@
 {
   "name": "jsx-html",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Convert jsx to html string",
   "main": "index.js",
   "readme": "README.md",
@@ -10,14 +10,13 @@
     "test": "mocha index.test.js",
     "check": "npm test && npm run lint",
     "watch:test": "npm test -- --watch",
-    "preversion": "npm run check && npm run readme && git add -A && git commit -m  ",
     "precommit": "npm run check"
   },
   "author": "Isaac Han",
   "license": "MIT",
-  "repository" : { 
-    "type" : "git",
-    "url" : "https://github.com/i4han/jsx-html.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i4han/jsx-html.git"
   },
   "dependencies": {
     "recast": "^0.12.6"
