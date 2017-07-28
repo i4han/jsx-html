@@ -1,6 +1,6 @@
 {
   "name": "jsx-html",
-  "version": "0.0.7",
+  "version": "0.0.22",
   "description": "Convert jsx to html string",
   "main": "index.js",
   "readme": "README.md",
