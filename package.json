@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "Convert jsx to html string",
   "main": "index.js",
+  "readme": "README.md",
   "scripts": {
     "readme": "jsdoc2md index.js > README.md && readme package.json | tail -n +4 >> README.md",
     "lint": "eslint --cache --fix .",
