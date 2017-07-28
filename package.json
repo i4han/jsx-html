@@ -10,7 +10,8 @@
     "test": "mocha index.test.js",
     "check": "npm test && npm run lint",
     "watch:test": "npm test -- --watch",
-    "precommit": "npm run check"
+    "precommit": "npm run check",
+    "prepublish": "git push && npm version patch"
   },
   "author": "Isaac Han",
   "license": "MIT",
