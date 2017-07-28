@@ -1,3 +1,5 @@
+/* global it, describe, before */
+
 let expect = require('chai').expect
 let jsxHtml = require('./index')
 let recast = require('recast')
