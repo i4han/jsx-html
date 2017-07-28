@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint --cache --fix .",
     "test": "mocha index.test.js",
-    "watch:test": "npm test -- --watch",
+    "watch:test": "npm test -- --watch"
   },
   "author": "Isaac Han",
   "license": "MIT",
