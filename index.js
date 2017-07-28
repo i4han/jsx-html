@@ -7,7 +7,7 @@ var esprima = require('./esprima') // modified esprima by facebook team
  * @example
  * let jsxHtml = require('jsx-html');
  * let code = 'let template = <div>hello</div>'
- * jsxHtml(code)
+ * jsxToHtml(code)
  * // returns 'let template = "<div>hello</div>"'
  * @param {string} - jsx element contained in ecmascript code string.
  * @returns {string} double quoted html strings converted from JSX element in ecmascript.

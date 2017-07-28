@@ -5,13 +5,20 @@
   "main": "index.js",
   "readme": "README.md",
   "scripts": {
-    "readme": "jsdoc2md index.js > README.md && readme package.json | tail -n +4 >> README.md",
+    "readme": "readme package.json > README.md && echo >> README.md && jsdoc2md index.js >> README.md",
     "lint": "eslint --cache --fix .",
     "test": "mocha index.test.js",
-    "watch:test": "npm test -- --watch"
+    "check": "npm test && npm run lint",
+    "watch:test": "npm test -- --watch",
+    "preversion": "npm run check && npm run readme && git add -A && git commit -m  ",
+    "precommit": "npm run check"
   },
   "author": "Isaac Han",
   "license": "MIT",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/i4han/jsx-html.git"
+  },
   "dependencies": {
     "recast": "^0.12.6"
   },

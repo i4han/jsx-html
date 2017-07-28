@@ -1,23 +1,6 @@
-<a name="jsxToHtml"></a>
+# jsx-html 
 
-## jsxToHtml(code) ⇒ <code>string</code>
-Convert JSX element in ecmascript code string to double quoted html string in the code.
-Forked from angular-jsx https://github.com/thesam/angular-jsx
-
-**Kind**: global function  
-**Returns**: <code>string</code> - double quoted html strings converted from JSX element in ecmascript.  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| code | <code>string</code> | jsx element contained in ecmascript code string. |
-
-**Example**  
-```js
-let jsxHtml = require('jsx-html');
-let code = 'let template = <div>hello</div>'
-jsxHtml(code)
-// returns 'let template = "<div>hello</div>"'
-```
+Convert jsx to html string
 
 ## Installation
 
@@ -48,3 +31,24 @@ npm test
 ## License
 
 MIT
+
+<a name="jsxToHtml"></a>
+
+## jsxToHtml(code) ⇒ <code>string</code>
+Convert JSX element in ecmascript code string to double quoted html string in the code.
+Forked from angular-jsx https://github.com/thesam/angular-jsx
+
+**Kind**: global function  
+**Returns**: <code>string</code> - double quoted html strings converted from JSX element in ecmascript.  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| code | <code>string</code> | jsx element contained in ecmascript code string. |
+
+**Example**  
+```js
+let jsxHtml = require('jsx-html');
+let code = 'let template = <div>hello</div>'
+jsxToHtml(code)
+// returns 'let template = "<div>hello</div>"'
+```
